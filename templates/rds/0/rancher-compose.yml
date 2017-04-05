@@ -3,13 +3,13 @@
   version: "v1"
   description: "Remote DevOps Station"
   questions: 
-    - variable: "USER"
-      label: "User"
+    - variable: "MYUSER"
+      label: "My User"
       description: "User to be used in the web terminal"
       required: true
       type: "string"
-    - variable: "PASS"
-      label: "Password"
+    - variable: "MYPASS"
+      label: "My Password"
       description: "Password to be used in the web terminal"
       required: true
       default: password
