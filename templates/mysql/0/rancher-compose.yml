@@ -3,20 +3,20 @@
   version: "v1"
   description: "My MYSQL Application Catalog"
   questions: 
-    - variable: "MYSQL_ROOT_PASSWORD"
-      label: "Mysql root password"
+    - variable: "MYSQL_MASTER_PASSWORD"
+      label: "Mysql master password"
       description: "Password for the mysql root user"
       required: true
       type: "password"
       default: password
-    - variable: "MYSQL_DATABASE"
+    - variable: "DATABASE_NAME"
       label: "Mysql database name"
       description: "Database name"
       required: true
       type: "string"
-    - variable: "MYSQL_USER"
+    - variable: "USER_NAME"
       label: "Mysql user"
-      description: "User for the MySql database"
+      description: "User name for the MySql database"
       required: true
       type: "string"
     - variable: "MYSQL_PASSWORD"
